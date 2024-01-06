@@ -17,19 +17,18 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m{" "} Ankit
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
-                1000,
+               
+                "C++ Developer",
+                3000,
                 "Web Developer",
-                1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
-                1000,
+                3000,
+                "Competitive Programmer",
+                3000,
               ]}
               wrapper="span"
               speed={50}
@@ -48,11 +47,11 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/19hS4uBWJ3aL9PGk_-N97qeqxrjtf0iL1/view?usp=drive_link"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                Resume
               </span>
             </Link>
           </div>
